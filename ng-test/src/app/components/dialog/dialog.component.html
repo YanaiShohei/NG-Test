@@ -1,0 +1,6 @@
+<p>削除しますか？</p>
+<div mat-dialog-actions>
+  <!-- [mat-dialog-close]はダイアログを閉じた時に呼び出しもとに渡したいデータを記入する -->
+    <button mat-button [mat-dialog-close]="false">No Thanks</button>
+    <button mat-button [mat-dialog-close]="true" cdkFocusInitial>Ok</button>
+  </div>
